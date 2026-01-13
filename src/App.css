@@ -1,0 +1,50 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  color: white;
+}
+
+/* Container holding logo + text */
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Logo on left */
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+/* Text beside logo */
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Welcome text */
+.welcome {
+  font-size: 32px;
+  font-weight: bold;
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+/* Highlighted first line */
+.highlight {
+  font-weight: bold;
+  color: #2E8B57;
+  font-size: 26px;
+}
+
+/* Remaining content */
+.details {
+  font-style: italic;
+  color: #e7ebec;
+  line-height: 1.6;
+}
