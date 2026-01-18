@@ -1,0 +1,15 @@
+.ProductCard .textPart{
+    transition:transform 0.3s ease-out;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+.ProductCard:hover .textPart{
+    transform: translateY(-10px);
+    }
+
+.ProductCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
+}
